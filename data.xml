@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<website>
+    <name>My Website</name>
+
+    <author>
+        <name>My Name</name>
+        <email>example@gmail.com</email>
+    </author>
+
+    <services>
+        <service>Web Design</service>
+       
+    </services>
+</website>
