@@ -14,7 +14,7 @@
  <service>Web Development</service> 
    <service>Database Management</service>
    <service>SQL Training</service>
-
+ <service>editor</service>
        
     </services>
 </website>
