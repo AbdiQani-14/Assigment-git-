@@ -30,4 +30,3 @@ my-project/
 ├── README.md
 └── .gitignore
 hello
-code
