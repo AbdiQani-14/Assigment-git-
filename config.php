@@ -3,3 +3,4 @@ server
 file
 psword
 xammp
+mysql
