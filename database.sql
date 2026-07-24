@@ -10,3 +10,4 @@ remove
 user
 decumantation
 report
+delete table user
