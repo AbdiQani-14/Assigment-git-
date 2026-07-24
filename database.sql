@@ -2,3 +2,4 @@
 table
 root 
 drop
+delete 
