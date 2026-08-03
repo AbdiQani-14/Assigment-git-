@@ -1,15 +1,19 @@
 name: My First Workflow
 
-on: push
+on:
+  push:
 
 jobs:
   say-hello:
     runs-on: ubuntu-latest
+
     steps:
-      # - name: Get The Code
-      #   uses: actions/checkout@v4    
+      - name: Get The Code
+        uses: actions/checkout@v4
 
       - name: Greet & Count The Files
         env:
           STUDENT_NAME: ${{ vars.STUDENT_NAME }}
-        run: echo "Hello, ${{env.STUDENT_NAME}}!"
+        run: |
+          COUNT=$(find . -type f -not -path './.git/*' | wc -l)
+          echo "Hello, $STUDENT_NAME, you have $COUNT files in your repository."
